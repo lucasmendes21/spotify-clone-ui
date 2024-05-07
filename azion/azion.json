@@ -1,0 +1,58 @@
+{
+  "name": "spotify-clone-ui-20240507155652",
+  "bucket": "spotify-clone-ui-20240507155652",
+  "preset": "vue",
+  "mode": "deliver",
+  "env": "production",
+  "prefix": "1715108263",
+  "not-first-run": true,
+  "function": {
+    "id": 46466,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 50979,
+    "instance-name": "__DEFAULT__"
+  },
+  "application": {
+    "id": 1715108262,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1715104131,
+    "name": "__DEFAULT__"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 357177,
+      "origin-key": "52771d51-d992-4a01-bc0f-0a0baa42e740",
+      "name": "spotify-clone-ui-20240507155652_single"
+    },
+    {
+      "origin-id": 357178,
+      "origin-key": "b25e5b32-0b30-44a4-844b-32149e019283",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 412993,
+        "name": "Main_Rule"
+      },
+      {
+        "id": 412994,
+        "name": "Index_Rewrite_1"
+      },
+      {
+        "id": 412995,
+        "name": "Index_Rewrite_2"
+      }
+    ]
+  },
+  "cache-settings": null
+}
