@@ -1,39 +1,41 @@
 {
   "name": "spotify-clone-ui",
-  "bucket": "spotify-clone-ui-1715173613",
+  "bucket": "spotify-clone-ui-20240606125800",
   "preset": "vue",
   "mode": "deliver",
   "env": "production",
-  "prefix": "1715173606",
+  "prefix": "20240606125744",
   "not-first-run": true,
   "function": {
-    "id": 46490,
+    "id": 24770,
     "name": "__DEFAULT__",
     "file": ".edge/worker.js",
     "args": "./azion/args.json",
-    "instance-id": 51022,
+    "instance-id": 24143,
     "instance-name": "__DEFAULT__"
   },
   "application": {
-    "id": 1715178457,
+    "id": 1717677334,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1715174267,
-    "name": "__DEFAULT__"
+    "id": 1717670995,
+    "name": "spotify-clone-ui",
+    "domain_name": "qco698kizs.map.azionedge.net",
+    "url": "https://qco698kizs.map.azionedge.net"
   },
   "rt-purge": {
     "purge_on_publish": true
   },
   "origin": [
     {
-      "origin-id": 357407,
-      "origin-key": "8a40cf91-cff7-405e-b2bc-1cd63e8078db",
+      "origin-id": 136970,
+      "origin-key": "371f9655-861e-415c-9b88-431368124415",
       "name": "spotify-clone-ui_single"
     },
     {
-      "origin-id": 357408,
-      "origin-key": "1377891a-948c-440e-854c-463f0b258b71",
+      "origin-id": 136971,
+      "origin-key": "09fd1312-70f3-470a-90f7-f9215450b64b",
       "name": "origin-storage-default"
     }
   ],
@@ -41,16 +43,16 @@
     "created": false,
     "rules": [
       {
-        "id": 413269,
+        "id": 259085,
         "name": "Main_Rule"
       },
       {
-        "id": 413270,
-        "name": "Index_Rewrite_1"
+        "id": 259086,
+        "name": "Assets_Rule_1"
       },
       {
-        "id": 413271,
-        "name": "Index_Rewrite_2"
+        "id": 259087,
+        "name": "Index_Rewrite_1"
       }
     ]
   },
